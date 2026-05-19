@@ -7,7 +7,7 @@ from descuentos import calcular_descuento
 def test_descuento_vip():
     """Prueba que un cliente VIP reciba el 20% de descuento correctamente."""
     # Arrange (Preparar) & Act (Actuar)
-    resultado = calcular_descuento(500.0, "VIP")
+    resultado = calcular_descuento(200.0, "VIP")
     # Assert (Afirmar/Validar): 20% de 200 es 40
     assert resultado == 40.0
 
